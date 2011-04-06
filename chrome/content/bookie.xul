@@ -1,7 +1,11 @@
 <?xml version="1.0"?>
 <overlay id="bookie" 
          xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
- <statusbar id="status-bar">
-  <statusbarpanel id="my-panel" label="Hello, World"  />
- </statusbar>
+    <toolbarbutton
+        id="bookie-button"
+        label="Bookie"
+        tooltiptext="Bookie"
+        <!--onclick="openUILink(deliciousService.getUrl('home'), event)"-->
+        style="list-style-image:url(\"chrome://bookie/skin/16x16.png\");-moz-image-region:rect(0px 16px 16px 0px);"
+     />
 </overlay>
