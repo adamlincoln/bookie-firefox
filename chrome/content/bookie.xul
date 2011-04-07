@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
+<?xml-stylesheet href="chrome://bookie/skin/toolbar-button.css" type="text/css"?>
 <overlay id="bookie" 
          xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-    <toolbarbutton
-        id="bookie-button"
-        label="Bookie"
-        tooltiptext="Bookie"
-        <!--onclick="openUILink(deliciousService.getUrl('home'), event)"-->
-        style="list-style-image:url(\"chrome://bookie/skin/16x16.png\");-moz-image-region:rect(0px 16px 16px 0px);"
-     />
+    <toolbar id="nav-bar">
+        <toolbarbutton id="bookie-button" position="1" tooltiptext="WTF3" />
+        <!--<toolbarbutton id="myextension-button" class="toolbarbutton-1"
+        label="&toolbarbutton.label;" tooltiptext="&toolbarbutton.tooltip;"
+        oncommand="MyExtension.onToolbarButtonCommand(event);"/>-->
+    </toolbar>
 </overlay>
