@@ -1,3 +1,5 @@
 content     bookie    chrome/content/
 overlay chrome://browser/content/browser.xul chrome://bookie/content/bookie.xul
-style chrome://global/content/customizeToolbar.xul chrome://bookie/skin/toolbar-button.css
+
+skin bookie skin1 bookie/skin/all
+skin bookie-os skin1 bookie/skin/unix
