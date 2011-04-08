@@ -4,10 +4,10 @@
          xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
   <toolbarpalette id="BrowserToolbarPalette">
     <toolbarbutton id="bookie-button"
-      class="toolbarbutton-1 chromeclass-toolbar-additional" 
       label="OMG0"
       tooltiptext="WTF0"
        />
+      <!--class="toolbarbutton-1 chromeclass-toolbar-additional" -->
     <!-- More buttons here. -->
   </toolbarpalette>
 </overlay>
