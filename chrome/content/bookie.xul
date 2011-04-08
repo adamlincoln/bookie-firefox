@@ -2,10 +2,12 @@
 <?xml-stylesheet href="chrome://bookie/skin/toolbar-button.css" type="text/css"?>
 <overlay id="bookie" 
          xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-    <toolbar id="nav-bar">
-        <toolbarbutton id="bookie-button" position="1" tooltiptext="WTF3" />
-        <!--<toolbarbutton id="myextension-button" class="toolbarbutton-1"
-        label="&toolbarbutton.label;" tooltiptext="&toolbarbutton.tooltip;"
-        oncommand="MyExtension.onToolbarButtonCommand(event);"/>-->
-    </toolbar>
+  <toolbarpalette id="BrowserToolbarPalette">
+    <toolbarbutton id="bookie-button"
+      class="toolbarbutton-1 chromeclass-toolbar-additional" 
+      label="OMG0"
+      tooltiptext="WTF0"
+       />
+    <!-- More buttons here. -->
+  </toolbarpalette>
 </overlay>
