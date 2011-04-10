@@ -1,5 +1,5 @@
 #bookie-button
-  {list-style-image: url("chrome://bookie/content/36_23.png");}
+  {list-style-image: url("chrome://bookie/skin/36_23.png");}
 
 .bookie
   {-moz-image-region: rect(0px, 36px, 23px, 0px);}
