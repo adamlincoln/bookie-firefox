@@ -5,8 +5,10 @@
 <overlay id="bookie-overlay"
   xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 
-<!-- <script type="application/javascript"
-  src="chrome://custombutton/content/button.js"/> -->
+<script type="application/javascript"
+  src="chrome://bookie/content/jquery.min.js"/>
+<!--<script type="application/x-javascript"
+  src="chrome://bookie/content/bookie-core.js"/>-->
 
 <!-- Firefox -->
 <toolbarpalette id="BrowserToolbarPalette">
