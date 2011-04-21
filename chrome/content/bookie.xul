@@ -6,29 +6,13 @@
   xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 
 <script type="application/x-javascript" src="chrome://bookie/content/js/bookie-firefox.js" />
-<!-- bookie-core.js is commented out while trying a new approach.  The initial approach had
-     this included and bookie-firefox.js commented out. -->
-<!--<script type="application/x-javascript" src="chrome://bookie/content/js/bookie-core.js" />-->
 <script type="application/x-javascript">
     window.addEventListener("load", function(event){
-        BookiejQuery.loadjQuery(BookiejQuery);
+        bookie.init(bookie);
+        //bookie.test();
+        alert(bookie.$);
     }, false);
 </script>
-<!--<script type="application/x-javascript">
-//window.addEventListener("load", function(event){
-    //(function(loader){
-        //loader.loadSubScript("chrome://bookie/content/js/jquery.min.js");
-    //})( 
-        //Components.classes["@mozilla.org/moz/jssubscript-loader;1"].getService(
-            //Components.interfaces.mozIJSSubScriptLoader
-        //)
-    //);
-    //$(function() {
-        ////bookie.testing();
-    //});
-//}, false);
-    bookie.aConsoleService.logStringMessage('mmmmm');
-</script>-->
 
 <!-- Firefox -->
 <toolbarpalette id="BrowserToolbarPalette">
