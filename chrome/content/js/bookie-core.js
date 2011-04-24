@@ -183,7 +183,7 @@ var bookie = (function (module, $) {
             url: module.api_url + "/delapi/posts/get",
             data: {url: url},
             success: function (xml) {
-                console.log('done, looking for callback');
+                //console.log('done, looking for callback');
 
                 if(callback) {
                     callback(xml);

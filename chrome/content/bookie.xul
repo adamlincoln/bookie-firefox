@@ -9,8 +9,9 @@
 <script type="application/x-javascript">
     window.addEventListener("load", function(event){
         bookie.init(bookie);
-        //bookie.test();
-        alert(bookie.$);
+    }, false);
+    window.addEventListener("unload", function(event){
+        bookie.shutdown();
     }, false);
 </script>
 
@@ -24,7 +25,20 @@
   label="Bookie"
   tooltiptext="Bookie"
   class="toolbarbutton-1 chromeclass-toolbar-additional bookie"
-  />
-<!--  oncommand="CustomButton[1]()" -->
+  type="menu"
+>
+  <panel id="bookie-panel" >
+    <form id="bookie-form"  >
+      <input id="url" type="hidden" />
+      <input id="api_key" type="hidden" />
+      <label id="bookie-description-label" value="Title:" />
+      <textbox id="description" />
+      <label id="bookie-tag-label" value="Tags:" />
+      <textbox id="tags" />
+      <button type="button" id="bookie-submit" label="Save" />
+      <button type="button" id="bookie-delete" label="Delete" disabled="true" />
+    </form>
+  </panel>
+</toolbarbutton>
 
 </overlay>
